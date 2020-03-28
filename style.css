@@ -1,0 +1,29 @@
+body{
+	background-color: #dcdce2;
+}
+
+.nav-item{
+
+	padding-right: 10px;
+}
+
+.navbar navbar-expand-lg{
+
+}
+
+.navbar-expand-lg  {
+
+	background-color: #23234a;
+}
+
+.nav-item a:hover {
+  background-color: #1f193e;
+  color: white;
+ }
+
+ .modal-content{
+ 	background-color: #f3f3f3;
+
+ 	}
+
+
