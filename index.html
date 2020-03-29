@@ -12,16 +12,16 @@
 </head>
 <body>
 
- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="https://github.com/DJAndrew-coder">Git Hub</a>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="https://github.com/DJAndrew-coder" target="_blank">Git Hub</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://pixabay.com/photos/search/gallaxy/" target="_blank">Pixabay</a>
@@ -29,9 +29,8 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
       </li>
- 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
@@ -39,40 +38,75 @@
         </div>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="Contact Me.html">Contact Us</a>
+        <a class="nav-link" href="file:///Users/Kamile/Documents/Bootstrap/Contact Me/index.html">Contact Us</a>
       </li>
     </ul>
-
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav>
-
-<main role="main">
+</nav> 
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3">Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+  <!-- Bootstrap Carousel -->
+	
+<main role="main">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="file:///Users/Kamile/Documents/Bootstrap/img/orion-nebula-11107.jpg" alt="Los Angeles" width="1100" height="400">
+      <div class="carousel-caption">
+        <h3>Galaxy</h3>
+        <p>We had such a great time in Milky Way!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="file:///Users/Kamile/Documents/Bootstrap/img/milky-way-2695569_1280.jpg" alt="Chicago" width="1100" height="400">
+      <div class="carousel-caption">
+        <h3>Galaxy</h3>
+        <p>Thank you, Milky Way!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="file:///Users/Kamile/Documents/Bootstrap/img/milky-way-2695569_1280.jpg" alt="New York" width="1100" height="400">
+      <div class="carousel-caption">
+        <h3>Galaxy</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
     </div>
   </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
 
+  <!-- Example row of columns -->
   <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-  <img src="Milky Way Galaxy.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Milky Way Galaxy</h5>
-    <p class="card-text">The Galactic Center as seen from Earth's night sky (the laser creates a guide-star for the telescope).</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+          <img src="file:///Users/Kamile/Documents/Bootstrap/img/Milky Way Galaxy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Milky Way Galaxy</h5>
+            <p class="card-text">The Galactic Center as seen from Earth's night sky (the laser creates a guide-star for the telescope).</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
       <div class="col-md-4">
         <h2>Heading</h2>
@@ -85,12 +119,10 @@
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-
     <hr>
   
-
-
  <!-- Button trigger modal -->
+
   <div class="container">
   <div class="row justify-content-end">
     <div class="col-2">
@@ -113,47 +145,38 @@
         </button>
       </div>
       <div class="modal-body">
-         <form>
+         <form action=""  class="was-validated" method="post">
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <label for="uname">Username:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" required> I agree to the Terms and Conditions.
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Check this checkbox to continue.</div>
+            </label>
           </div>
-         <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+          <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
-      <!--  <button type="button" class="btn btn-primary">Save changes</button> -->
-      </div> 
+      </div>  
     </div>
   </div>
 </div> 
-
-
-
-
-
 </div> <!-- /container -->
-
-
 </main>
+	
 <footer class="container">
   <p>&copy; A. J. Company 2020</p>
 </footer>
-
-
-
-
-
 
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
