@@ -1,6 +1,4 @@
-body{
-		background-color: #25274d;
-	}
+
 	.contact{
 		padding: 4%;
 		height: 400px;
@@ -38,6 +36,7 @@ body{
 	.contact-form button:focus{
 		box-shadow:none;
 	}
+
 .row{
 	padding-top: 57px;
 }
@@ -47,9 +46,6 @@ body{
 	padding-right: 10px;
 }
 
-.navbar navbar-expand-lg{
-
-}
 
 .navbar-expand-lg  {
 
@@ -60,7 +56,9 @@ body{
   color: white;
  }
 
-/* CSS CODE */
+
+
+
 
 
 
