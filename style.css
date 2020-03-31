@@ -17,12 +17,33 @@ body{
 }
 
 .nav-item a:hover {
+
   color: white;
  }
 
+
+/* Modal */
  .modal-content{
  	background-color: #f3f3f3;
 
  	}
+
+.button{
+	display:inline;
+	float: right;
+	padding-left: 5px;
+}
+
+.containermy  {
+	max-width: 100%;
+
+}
+
+/* Sign Up Form */
+
+.MyForm{
+	padding: 20px;
+}
+
 
 
