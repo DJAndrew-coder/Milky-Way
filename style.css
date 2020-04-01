@@ -15,10 +15,13 @@ body{
 
 	background-color: #23234a;
 }
-
 .nav-item a:hover {
 
-  color: white;
+  color: black;
+ }
+
+  .dropdown-item:hover{
+ 	background-color: #ebf0f3;
  }
 
 
