@@ -47,7 +47,7 @@ body{
 .MyForm{
 	padding: 20px;
 }
-img{
+.carimg, .card-img-top{
 	height: 220px;
 }
 
